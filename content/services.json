@@ -1,10 +1,26 @@
 [
   {
-    "name": "Plumbing services",
-    "description": "Reliable LPG and general plumbing services tailored for residential, industrial and mobile living spaces."
+    "name": "Gas fitting",
+    "description": "Reliable gas fitting services for homes/commercial"
   },
   {
-    "name": "Gas fitting",
-    "description": "Reliable gas fitting for homes/commercial and more"
+    "name": "Plumbing",
+    "description": "Reliable plumbing services for homes/commercial"
+  },
+  {
+    "name": "LPG plumbing",
+    "description": "Reliable LPG and general plumbing services"
+  },
+  {
+    "name": "Residential plumbing",
+    "description": "Plumbing services tailored for residential spaces"
+  },
+  {
+    "name": "Industrial plumbing",
+    "description": "Plumbing services tailored for industrial spaces"
+  },
+  {
+    "name": "Mobile living spaces plumbing",
+    "description": "Plumbing services tailored for mobile living spaces"
   }
 ]
