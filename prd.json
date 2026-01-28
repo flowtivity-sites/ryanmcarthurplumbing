@@ -1,0 +1,300 @@
+{
+  "version": "1.0",
+  "businessName": "Ryan McArthur Plumbing Pty Ltd",
+  "slug": "ryanmcarthurplumbing",
+  "category": "trades",
+  "designDirection": {
+    "aesthetic": "Northern Utility",
+    "displayFont": "Archivo Black",
+    "bodyFont": "DM Sans",
+    "palette": {
+      "primary": "#22543d",
+      "accent": "#ecc94b",
+      "surface": "#f0fff4",
+      "text": "#1a202c",
+      "textMuted": "#4a5568"
+    },
+    "effects": [
+      "organic blobs",
+      "subtle gradients",
+      "texture overlays",
+      "offset elements"
+    ]
+  },
+  "designVariations": [
+    {
+      "id": "variation-1",
+      "name": "Industrial Confidence",
+      "rationale": "This design reflects the industrial nature of plumbing work with bold typography and navy-orange combination that conveys reliability and expertise. The strong geometric elements mirror the precision required in Ryan's plumbing and gas fitting services across Northern NSW's diverse residential and industrial sectors.",
+      "palette": {
+        "primary": "#1a365d",
+        "accent": "#f56500",
+        "surface": "#f7fafc",
+        "text": "#2d3748",
+        "textMuted": "#718096"
+      },
+      "fonts": {
+        "display": "Bebas Neue",
+        "body": "Work Sans"
+      },
+      "layout": {
+        "hero": "Split layout with large typography on left and industrial imagery on right",
+        "sections": "Grid-based arrangement with alternating content blocks and service highlights",
+        "cards": "Sharp-edged cards with bold orange accent borders and geometric icons"
+      },
+      "effects": [
+        "geometric shapes",
+        "bold shadows",
+        "grain texture",
+        "decorative lines"
+      ],
+      "mood": [
+        "industrial",
+        "confident",
+        "reliable",
+        "professional"
+      ],
+      "recommended": true,
+      "recommendationReason": "Best captures the trades industry aesthetic while maintaining approachability for residential customers, with the navy-orange palette conveying both trustworthiness and energy that suits a growing plumbing business"
+    },
+    {
+      "id": "variation-2",
+      "name": "Northern Utility",
+      "rationale": "Inspired by Northern NSW's natural landscape, this design uses forest green and yellow to create an approachable yet professional presence. The clean typography and organic elements reflect Ryan McArthur Plumbing's versatility in serving both residential homes and mobile living spaces.",
+      "palette": {
+        "primary": "#22543d",
+        "accent": "#ecc94b",
+        "surface": "#f0fff4",
+        "text": "#1a202c",
+        "textMuted": "#4a5568"
+      },
+      "fonts": {
+        "display": "Archivo Black",
+        "body": "DM Sans"
+      },
+      "layout": {
+        "hero": "Full-width background with centered text overlay and subtle geometric framing",
+        "sections": "Card-focused layout with staggered arrangement and nature-inspired spacing",
+        "cards": "Rounded corners with subtle shadows and yellow accent highlights on hover"
+      },
+      "effects": [
+        "organic blobs",
+        "subtle gradients",
+        "texture overlays",
+        "offset elements"
+      ],
+      "mood": [
+        "natural",
+        "trustworthy",
+        "approachable",
+        "regional"
+      ],
+      "recommended": false
+    },
+    {
+      "id": "variation-3",
+      "name": "Precision Engineering",
+      "rationale": "This design emphasizes the technical expertise required in gas fitting and plumbing with a sleek charcoal and teal combination. The modern typography and high-contrast elements reflect the precision and safety standards essential to Ryan's LPG and general plumbing services.",
+      "palette": {
+        "primary": "#2d3748",
+        "accent": "#319795",
+        "surface": "#edf2f7",
+        "text": "#1a202c",
+        "textMuted": "#718096"
+      },
+      "fonts": {
+        "display": "Space Grotesk",
+        "body": "Source Sans Pro"
+      },
+      "layout": {
+        "hero": "Minimal centered design with large typography and subtle geometric background patterns",
+        "sections": "Clean alternating sections with generous whitespace and technical iconography",
+        "cards": "Minimal bordered cards with teal accent lines and crisp typography"
+      },
+      "effects": [
+        "geometric shapes",
+        "high contrast",
+        "micro-animations",
+        "bold lines"
+      ],
+      "mood": [
+        "precise",
+        "modern",
+        "technical",
+        "clean"
+      ],
+      "recommended": false
+    },
+    {
+      "id": "variation-4",
+      "name": "Outback Trades",
+      "rationale": "Drawing from Australia's rugged landscape, this design uses warm earth tones and bold typography to convey strength and dependability. The textured elements and robust styling reflect the durability needed for plumbing services across Northern NSW's varied terrain and climate conditions.",
+      "palette": {
+        "primary": "#744210",
+        "accent": "#dd6b20",
+        "surface": "#fffaf0",
+        "text": "#2d3748",
+        "textMuted": "#718096"
+      },
+      "fonts": {
+        "display": "Oswald",
+        "body": "Inter"
+      },
+      "layout": {
+        "hero": "Layered design with textured background, bold headlines, and overlapping content blocks",
+        "sections": "Robust grid layout with textured dividers and industrial-style spacing",
+        "cards": "Heavy shadowed cards with textured backgrounds and orange accent elements"
+      },
+      "effects": [
+        "grain texture",
+        "bold shadows",
+        "texture overlays",
+        "decorative lines",
+        "offset elements"
+      ],
+      "mood": [
+        "rugged",
+        "dependable",
+        "authentic",
+        "bold"
+      ],
+      "recommended": false
+    }
+  ],
+  "selectedVariation": "variation-2",
+  "stories": [
+    {
+      "id": 1,
+      "title": "Project setup: Next.js + Tailwind, Cloudflare config",
+      "description": "Initialize a Next.js project with Tailwind CSS, configured for Cloudflare Pages deployment",
+      "acceptanceCriteria": [
+        "Next.js 14+ project initialized with TypeScript and App Router",
+        "Tailwind CSS configured and working",
+        "npm run build succeeds without errors",
+        "next.config.js configured for static export (output: 'export')"
+      ],
+      "passes": false
+    },
+    {
+      "id": 2,
+      "title": "Homepage: hero with images, services grid, trust signals, CTA",
+      "description": "Build the homepage using downloaded images from assets/images/ for hero, services overview, trust signals, and call-to-action",
+      "acceptanceCriteria": [
+        "Hero section with business name, tagline, and hero image from assets/images/",
+        "Services grid showing main offerings with relevant images",
+        "Trust signals section (reviews, certifications, experience)",
+        "Clear call-to-action buttons",
+        "Uses images from assets/images/ folder (NOT placeholder images)"
+      ],
+      "passes": false
+    },
+    {
+      "id": 3,
+      "title": "Services page with service images",
+      "description": "Create a dedicated services page using downloaded images for each service offering",
+      "acceptanceCriteria": [
+        "All services from content/services.json displayed",
+        "Each service has name, description, and image from assets/images/",
+        "Consistent styling with homepage",
+        "Uses next/image for optimized image loading"
+      ],
+      "passes": false
+    },
+    {
+      "id": 4,
+      "title": "About page with team/business images",
+      "description": "Build the about page with business story and images from assets/images/",
+      "acceptanceCriteria": [
+        "Business story section from content/about.json",
+        "Uses relevant images from assets/images/ (team photos, work photos, etc.)",
+        "Company values or mission statement",
+        "NO placeholder images - use actual downloaded assets"
+      ],
+      "passes": false
+    },
+    {
+      "id": 5,
+      "title": "Contact page: form, map, details",
+      "description": "Create contact page with working form, embedded map, and contact details",
+      "acceptanceCriteria": [
+        "Contact form with name, email, phone, message fields",
+        "Form submits to Formspree or similar service",
+        "Google Maps embed with business location",
+        "Phone, email, address, hours displayed from content/metadata.json"
+      ],
+      "passes": false
+    },
+    {
+      "id": 6,
+      "title": "Design system: Apply vertical aesthetic",
+      "description": "Implement the design system specific to the business vertical with distinctive typography, colors, and styling",
+      "acceptanceCriteria": [
+        "Display font and body font from design direction applied via next/font",
+        "Color palette implemented as CSS variables in globals.css",
+        "Distinctive aesthetic - NOT generic (no Inter, Roboto)",
+        "Visual style matches the business vertical"
+      ],
+      "passes": false
+    },
+    {
+      "id": 7,
+      "title": "Motion & polish",
+      "description": "Add animations and polish including page load reveals, hover states, and smooth scrolling",
+      "acceptanceCriteria": [
+        "Staggered page load animations using Framer Motion or CSS",
+        "Hover effects on interactive elements",
+        "Smooth scroll behavior",
+        "Respects prefers-reduced-motion"
+      ],
+      "passes": false
+    },
+    {
+      "id": 8,
+      "title": "AEO: LocalBusiness schema, meta tags, FAQ",
+      "description": "Implement Answer Engine Optimization with structured data, meta tags, and FAQ section",
+      "acceptanceCriteria": [
+        "LocalBusiness JSON-LD schema with all business details",
+        "Meta title and description optimized for local search",
+        "FAQ section with 3-5 common questions",
+        "Schema validates at schema.org validator"
+      ],
+      "passes": false
+    },
+    {
+      "id": 9,
+      "title": "Mobile responsive",
+      "description": "Ensure the site is fully responsive on mobile devices",
+      "acceptanceCriteria": [
+        "No horizontal scroll at 375px width",
+        "Touch-friendly button sizes (min 44px)",
+        "Readable text without zooming",
+        "Mobile navigation works correctly"
+      ],
+      "passes": false
+    },
+    {
+      "id": 10,
+      "title": "Image optimization with next/image",
+      "description": "Optimize all images using Next.js Image component for performance",
+      "acceptanceCriteria": [
+        "All images use next/image component",
+        "Images from assets/images/ are properly sized and optimized",
+        "Lazy loading enabled for below-fold images",
+        "Lighthouse Performance score > 90"
+      ],
+      "passes": false
+    },
+    {
+      "id": 11,
+      "title": "Deploy to Cloudflare Pages",
+      "description": "Deploy the completed Next.js static site to Cloudflare Pages",
+      "acceptanceCriteria": [
+        "npm run build creates static export in /out folder",
+        "Site deployed successfully to Cloudflare Pages",
+        "Preview URL accessible and HTTPS working",
+        "Loads in under 3 seconds"
+      ],
+      "passes": false
+    }
+  ]
+}
